@@ -12,6 +12,9 @@ class MyApp extends StatelessWidget {
     final wordPair = new WordPair.random();
     return new MaterialApp(
       title: 'new flutter',
+      theme: new ThemeData(
+        primaryColor:  Colors.white,
+      ),
       home: new RandomWords(),
     );
   }
